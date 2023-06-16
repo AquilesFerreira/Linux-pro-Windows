@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  display: grid;
+  background-image: url(../Imagens/Background.png);
+  background-position: center;
+  background-size: 1250px;
+}
+body header {
+  width: 100%;
+  height: 95px;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 250px 1300px 297px;
+}
+body header figure {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+}
+body header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  font-size: 20px;
+  padding: 25px;
+  font-weight: bold;
+}
+body header nav ul a:hover {
+  color: #744c2b;
+}
+body header form {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  padding: 35px;
+}
+body header form input {
+  height: 25px;
+  width: 190px;
+  padding: 0px 15px;
+  font-size: 14px;
+  border: 2px solid #000000;
+}
+body header form button {
+  border: none;
+  background: transparent;
+  position: relative;
+  right: 38px;
+}
+body main {
+  width: 100%;
+  height: 819px;
+  display: grid;
+  grid-template-columns: repeat(12, 6.66666%);
+  align-content: center;
+  justify-content: center;
+  grid-auto-rows: 400px;
+  gap: 22px;
+}
+body main article {
+  grid-column: 1/6;
+}
+body main article h4 {
+  margin: 0;
+  font-size: 33px;
+  font-weight: bold;
+}
+body main article h4:hover {
+  font-size: 34px;
+}
+body main article p {
+  font-size: 18px;
+}
+body main article p:hover {
+  font-size: 19px;
+}
+body main form {
+  background-color: rgba(17, 17, 17, 0.1882352941);
+  grid-area: 1/9/auto/span 3;
+  border-radius: 40px;
+  height: 310px;
+  padding-left: 20px;
+}
+body main form p {
+  font-weight: bold;
+  font-size: 19px;
+  margin: 35px 20px;
+}
+body main form input {
+  font-family: "Rubik", sans-serif;
+  margin: 35px 20px;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-weight: 100;
+  width: 299px;
+  border-width: 0 0 1px 0;
+  border-color: #222;
+  background-color: transparent;
+}
+body main form button {
+  font-family: "Rubik", sans-serif;
+  margin: 35px 20px;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-weight: 100;
+  width: 329px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: rgba(17, 17, 17, 0.4392156863);
+  color: rgba(17, 17, 17, 0.5647058824);
+}
+body main form button:hover {
+  background-color: #744c2b;
+}
+body footer {
+  width: 100%;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 220px 1300px 300px;
+  grid-auto-rows: 60px;
+}
+body footer figure {
+  margin: 0;
+  display: flex;
+  align-items: none;
+  justify-content: center;
+}
+body footer figure img {
+  height: 35px;
+}
+body footer article {
+  display: inline-grid;
+  grid-auto-rows: 15px;
+}
+body footer article p {
+  font-size: 12px;
+  margin: 0;
+}
+body footer nav ul {
+  list-style: none;
+  display: flex;
+  align-items: none;
+  justify-content: none;
+  margin: 0;
+  padding: 0;
+}
+body footer nav ul li {
+  padding-right: 10px;
+}/*# sourceMappingURL=estilização.css.map */
