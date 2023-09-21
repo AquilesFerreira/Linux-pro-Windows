@@ -1,2 +1,18 @@
 $corfundo-primaria: #ffffff;
 $cor-texto: #000000;
+$cor-hover: #744c2b;
+$corfundo-boxlogin: #11111130;
+
+@mixin displayHeader ($vertical, $horizontal){
+    display: flex;
+    align-items: $vertical;
+    justify-content: $horizontal;
+}
+@mixin styleBoxCadastro ($size){
+    font-family: "Rubik", sans-serif;
+    margin: 35px 20px;
+    padding: 8px 15px;
+    font-size: 20px;
+    font-weight: 100;
+    width: $size;
+}

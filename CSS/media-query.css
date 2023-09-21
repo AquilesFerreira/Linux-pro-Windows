@@ -1,0 +1,114 @@
+/*Media para Celular*/
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    width: 100%;
+    font-family: "Rubik", sans-serif;
+    background-color: #ffffff;
+    background-image: none;
+  }
+  body header {
+    width: 100%;
+    height: 95px;
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body header figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body header span#simbolo {
+    display: flex;
+    padding-right: 50px;
+    font-size: 35px;
+  }
+  body header nav#lista {
+    display: none;
+  }
+  body header nav#lista ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+  }
+  body header nav#lista ul a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: none;
+    font-size: 20px;
+    padding: 25px;
+    font-weight: bold;
+  }
+  body header nav#lista ul a:hover {
+    color: #744c2b;
+  }
+  body header form {
+    display: none;
+  }
+  body main {
+    width: 100%;
+    display: block;
+  }
+  body main section#fundoCelular {
+    display: block;
+    margin: 30px 0px;
+  }
+  body main section#fundoCelular img {
+    width: 100%;
+  }
+  body main article h4 {
+    font-size: 29px;
+    font-weight: bold;
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+  }
+  body main article h4:hover {
+    font-size: 30px;
+  }
+  body main article p {
+    font-size: 20px;
+    margin: 20px 10px;
+    text-align: center;
+  }
+  body main article p:hover {
+    font-size: 23px;
+  }
+  body main form {
+    display: none;
+  }
+  body footer {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+  }
+  body footer figure {
+    margin: 0;
+    display: flex;
+    align-items: none;
+    justify-content: center;
+  }
+  body footer figure img {
+    height: 35px;
+  }
+  body footer article {
+    display: inline-grid;
+    grid-auto-rows: 15px;
+  }
+  body footer article p {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin: 0;
+  }
+  body footer nav {
+    display: none;
+  }
+}/*# sourceMappingURL=media-query.css.map */
