@@ -5,6 +5,8 @@ body {
   background-image: url(../Imagens/Background.png);
   background-position: center;
   background-size: auto 1250px;
+  background-repeat: no-repeat;
+  justify-content: center;
 }
 body header {
   width: 100%;
